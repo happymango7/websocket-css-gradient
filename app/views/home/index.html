@@ -1,0 +1,53 @@
+
+<div class="row">
+  <div id="gradient_board">
+    <div class="col-sm-6">
+		  <div class="options"> 
+				<span class="labels">Style:</span>
+				<a href="javascript:;"><span class="button active" id="btn-1">Linear</span></a>
+				<a href="javascript:;"><span class="button" id="btn-2">Radial</span></a>
+				<br><br>
+				<span class="labels">Direction:</span>
+				<a href="javascript:;"><span class="button" id="btn-7">Center</span></a>
+				<a href="javascript:;"><span class="button active" id="btn-3">Top</span></a>
+				<a href="javascript:;"><span class="button" id="btn-3-4">Top right</span></a>
+				<a href="javascript:;"><span class="button" id="btn-4">Right</span></a>
+				<a href="javascript:;"><span class="button" id="btn-5-4">Bottom right</span></a>
+				<a href="javascript:;"><span class="button" id="btn-5">Bottom</span></a>
+				<a href="javascript:;"><span class="button" id="btn-5-6">Bottom left</span></a>
+				<a href="javascript:;"><span class="button" id="btn-6">Left</span></a>
+				<a href="javascript:;"><span class="button" id="btn-3-6">Top left</span></a>
+				<br><br>
+				<span class="labels">Colors:</span>
+				<span class="color" id="btn-c1" style="background-color: rgb(116, 227, 236); color: rgb(116, 227, 236); opacity: 1;">&nbsp;</span><input type="text" class="btn-c2" id="color" value="#74e3ec">
+				<br>
+				<span class="color" id="btn-c3" style="background-color: rgb(199, 255, 226); color: rgb(199, 255, 226); opacity: 1;">&nbsp;</span><input type="text" class="btn-c4" id="color" value="#c7ffe2">
+			</div>
+    </div>
+    <div class="col-sm-6">
+    	<div class="container-preview">
+		    <div class="preview" id="gradient-preview"></div>
+		  </div>
+<pre class="code" id="codetocopy" >
+background: <span id="color1a">#74e3ec</span>; /* Old Browsers */
+background: -webkit-<span id="id-type2">linear</span>-gradient(<span id="id-direction2">top</span>,<span id="color1b">#74e3ec</span>,<span id="color2b">#c7ffe2</span>); /*Safari 5.1-6*/
+background: -o-<span id="id-type3">linear</span>-gradient(<span id="id-direction3">top</span>,<span id="color1c">#74e3ec</span>,<span id="color2c">#c7ffe2</span>); /*Opera 11.1-12*/
+background: -moz-<span id="id-type4">linear</span>-gradient(<span id="id-direction4">top</span>,<span id="color1d">#74e3ec</span>,<span id="color2d">#c7ffe2</span>); /*Fx 3.6-15*/
+background: <span id="id-type5">linear</span>-gradient(<span id="id-direction5">to bottom</span>, <span id="color1e">#74e3ec</span>, <span id="color2e">#c7ffe2</span>); /*Standard*/
+</pre>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div id="chat_history" class="well span12"></div>
+</div>
+<div class="row">
+  <div class="input-append span10">
+    <button id="send_message" class="btn">Share my Gradient</button>
+  </div>
+</div>
+<div class="row">
+	<h3>Shared Gradients</h3>
+	<div id="gradient_list">
+	</div>
+</div>
